@@ -1,0 +1,30 @@
+@import '../../assets/styles/sass/main.scss';
+
+.card {
+    width: 400px;
+    height: 200px;
+    @include flex(row, space-between, center);
+    background-color: #FFF;
+    margin: 1em;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    .card-text {
+        width: 75%;
+        height: 100%;
+        @include flex(column, space-around, flex-start);
+    }
+
+    .card-btn {
+        width: 25%;
+        height: 100%;
+        @include flex(column, space-between, flex-end);
+    }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+@import './assets/styles/sass/main.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+div#root {
+  width: 90%;
+  height: auto;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-image: url('./assets/images/bg-intro-desktop.png');
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  @include flex(column, center, center);
+}
