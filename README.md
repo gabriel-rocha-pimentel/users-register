@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./design/desktop-design.jpg)
 
 Add a screenshot of your solution. You can use a tool like [FireShot](https://getfireshot.com/) to capture the screenshot, then crop/optimize/edit your image as necessary.
 
@@ -84,9 +84,9 @@ In future projects, I plan to:
 
 ## Author
 
-- Website - [Your Name](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [User Register](https://register-dev-users.netlify.app/)
+- Frontend Mentor - [@gabriel-rocha-pimentel](https://www.frontendmentor.io/solutions/user-register-q8rSQyb0Yi)
+- LinkedIn - [@gabrielrochapimentel](https://www.linkedin.com/in/gabrielrochapimentel/)
 
 ## Acknowledgments
 
